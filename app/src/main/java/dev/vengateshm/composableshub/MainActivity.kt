@@ -11,6 +11,7 @@ import androidx.compose.ui.Modifier
 import dev.vengateshm.composableshub.components.CheckboxCard
 import dev.vengateshm.composableshub.components.ChoiceCompactCard
 import dev.vengateshm.composableshub.components.FeedPosts
+import dev.vengateshm.composableshub.components.MultiselectAutocomplete
 import dev.vengateshm.composableshub.components.SocialLoginsButtons
 import dev.vengateshm.composableshub.components.list_views.IconListView
 import dev.vengateshm.composableshub.components.list_views.ListView
@@ -39,7 +40,8 @@ class MainActivity : ComponentActivity() {
 //                    ListViewWithTruncatedContent()
 //                    ListViewWithStickyHeaders()
 //                    IconListView()
-                    FeedPosts()
+//                    FeedPosts()
+                    MultiselectAutocomplete()
                 }
             }
         }
