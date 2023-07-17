@@ -11,6 +11,7 @@ import androidx.compose.ui.Modifier
 import dev.vengateshm.composableshub.components.CheckboxCard
 import dev.vengateshm.composableshub.components.ChoiceCompactCard
 import dev.vengateshm.composableshub.components.SocialLoginsButtons
+import dev.vengateshm.composableshub.components.list_views.IconListView
 import dev.vengateshm.composableshub.components.list_views.ListView
 import dev.vengateshm.composableshub.components.list_views.ListViewWithStickyHeaders
 import dev.vengateshm.composableshub.components.list_views.ListViewWithTruncatedContent
@@ -35,7 +36,8 @@ class MainActivity : ComponentActivity() {
 //                    Column { ChoiceCompactCard() }
 //                    CheckboxCard()
 //                    ListViewWithTruncatedContent()
-                    ListViewWithStickyHeaders()
+//                    ListViewWithStickyHeaders()
+                    IconListView()
                 }
             }
         }
