@@ -8,6 +8,7 @@ import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Surface
 import androidx.compose.ui.Modifier
 import dev.vengateshm.composableshub.components.SocialLoginsButtons
+import dev.vengateshm.composableshub.components.list_views.ListView
 import dev.vengateshm.composableshub.screens.galleryProfile.GalleryProfile
 import dev.vengateshm.composableshub.ui.theme.ComposablesHubTheme
 
@@ -24,7 +25,8 @@ class MainActivity : ComponentActivity() {
 //                    SignUpScreen()
 //                    SettingsScreen()
 //                    GalleryProfile()
-                    SocialLoginsButtons()
+//                    SocialLoginsButtons()
+                    ListView()
                 }
             }
         }
