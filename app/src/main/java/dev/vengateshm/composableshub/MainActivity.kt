@@ -13,6 +13,7 @@ import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.tooling.preview.Preview
 import dev.vengateshm.composableshub.screens.SignUpScreen
+import dev.vengateshm.composableshub.screens.settings.SettingsScreen
 import dev.vengateshm.composableshub.ui.theme.ComposablesHubTheme
 
 class MainActivity : ComponentActivity() {
@@ -25,7 +26,8 @@ class MainActivity : ComponentActivity() {
                     modifier = Modifier.fillMaxSize(),
                     color = MaterialTheme.colorScheme.background
                 ) {
-                    SignUpScreen()
+//                    SignUpScreen()
+                    SettingsScreen()
                 }
             }
         }
