@@ -8,6 +8,7 @@ import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Surface
 import androidx.compose.ui.Modifier
+import dev.vengateshm.composableshub.components.AutocompleteWithImages
 import dev.vengateshm.composableshub.components.CheckboxCard
 import dev.vengateshm.composableshub.components.ChoiceCompactCard
 import dev.vengateshm.composableshub.components.FeedPosts
@@ -41,7 +42,8 @@ class MainActivity : ComponentActivity() {
 //                    ListViewWithStickyHeaders()
 //                    IconListView()
 //                    FeedPosts()
-                    MultiselectAutocomplete()
+//                    MultiselectAutocomplete()
+                    AutocompleteWithImages()
                 }
             }
         }
