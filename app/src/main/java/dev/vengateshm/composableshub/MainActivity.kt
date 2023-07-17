@@ -12,6 +12,7 @@ import dev.vengateshm.composableshub.components.CheckboxCard
 import dev.vengateshm.composableshub.components.ChoiceCompactCard
 import dev.vengateshm.composableshub.components.SocialLoginsButtons
 import dev.vengateshm.composableshub.components.list_views.ListView
+import dev.vengateshm.composableshub.components.list_views.ListViewWithStickyHeaders
 import dev.vengateshm.composableshub.components.list_views.ListViewWithTruncatedContent
 import dev.vengateshm.composableshub.screens.galleryProfile.GalleryProfile
 import dev.vengateshm.composableshub.ui.theme.ComposablesHubTheme
@@ -33,7 +34,8 @@ class MainActivity : ComponentActivity() {
 //                    ListView()
 //                    Column { ChoiceCompactCard() }
 //                    CheckboxCard()
-                    ListViewWithTruncatedContent()
+//                    ListViewWithTruncatedContent()
+                    ListViewWithStickyHeaders()
                 }
             }
         }
