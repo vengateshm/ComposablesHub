@@ -4,16 +4,10 @@ import android.os.Bundle
 import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
 import androidx.compose.foundation.layout.fillMaxSize
-import androidx.compose.material3.ExperimentalMaterial3Api
 import androidx.compose.material3.MaterialTheme
-import androidx.compose.material3.Scaffold
 import androidx.compose.material3.Surface
-import androidx.compose.material3.Text
-import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
-import androidx.compose.ui.tooling.preview.Preview
-import dev.vengateshm.composableshub.screens.SignUpScreen
-import dev.vengateshm.composableshub.screens.settings.SettingsScreen
+import dev.vengateshm.composableshub.screens.galleryProfile.GalleryProfile
 import dev.vengateshm.composableshub.ui.theme.ComposablesHubTheme
 
 class MainActivity : ComponentActivity() {
@@ -27,7 +21,8 @@ class MainActivity : ComponentActivity() {
                     color = MaterialTheme.colorScheme.background
                 ) {
 //                    SignUpScreen()
-                    SettingsScreen()
+//                    SettingsScreen()
+                    GalleryProfile()
                 }
             }
         }
