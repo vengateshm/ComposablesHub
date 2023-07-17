@@ -8,6 +8,7 @@ import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Surface
 import androidx.compose.ui.Modifier
+import dev.vengateshm.composableshub.components.CheckboxCard
 import dev.vengateshm.composableshub.components.ChoiceCompactCard
 import dev.vengateshm.composableshub.components.SocialLoginsButtons
 import dev.vengateshm.composableshub.components.list_views.ListView
@@ -29,7 +30,8 @@ class MainActivity : ComponentActivity() {
 //                    GalleryProfile()
 //                    SocialLoginsButtons()
 //                    ListView()
-                    Column { ChoiceCompactCard() }
+//                    Column { ChoiceCompactCard() }
+                    CheckboxCard()
                 }
             }
         }
