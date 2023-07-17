@@ -3,10 +3,12 @@ package dev.vengateshm.composableshub
 import android.os.Bundle
 import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
+import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Surface
 import androidx.compose.ui.Modifier
+import dev.vengateshm.composableshub.components.ChoiceCompactCard
 import dev.vengateshm.composableshub.components.SocialLoginsButtons
 import dev.vengateshm.composableshub.components.list_views.ListView
 import dev.vengateshm.composableshub.screens.galleryProfile.GalleryProfile
@@ -26,7 +28,8 @@ class MainActivity : ComponentActivity() {
 //                    SettingsScreen()
 //                    GalleryProfile()
 //                    SocialLoginsButtons()
-                    ListView()
+//                    ListView()
+                    Column { ChoiceCompactCard() }
                 }
             }
         }
