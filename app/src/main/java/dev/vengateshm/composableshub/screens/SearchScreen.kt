@@ -48,7 +48,6 @@ import androidx.compose.ui.unit.dp
 import coil.compose.AsyncImage
 import coil.request.ImageRequest
 
-
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable
 fun SearchScreen() {

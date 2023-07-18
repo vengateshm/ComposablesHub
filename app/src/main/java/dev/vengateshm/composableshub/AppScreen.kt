@@ -27,6 +27,11 @@ sealed class AppScreen {
             override val displayName: String
                 get() = "Search"
         }
+
+        object Chat : Screens("chat") {
+            override val displayName: String
+                get() = "Chat"
+        }
     }
 
     sealed class Components(val route: String) : AppScreen() {
