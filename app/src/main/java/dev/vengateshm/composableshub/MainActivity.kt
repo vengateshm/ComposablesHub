@@ -37,6 +37,7 @@ import androidx.navigation.compose.rememberNavController
 import dev.vengateshm.composableshub.components.AutocompleteWithImages
 import dev.vengateshm.composableshub.components.CheckboxCard
 import dev.vengateshm.composableshub.components.ChoiceCompactCard
+import dev.vengateshm.composableshub.components.ContentCard
 import dev.vengateshm.composableshub.components.FeedPostCard
 import dev.vengateshm.composableshub.components.HorizontalPagerIndicator
 import dev.vengateshm.composableshub.components.MultiselectAutocomplete
@@ -130,6 +131,16 @@ fun ComposableHubApp() {
                     contentAlignment = Alignment.Center
                 ) {
                     ChoiceCompactCard()
+                }
+            }
+            composable(AppScreen.Components.ContentCard.route) {
+                Box(
+                    modifier = Modifier
+                        .fillMaxSize()
+                        .padding(all = 16.dp),
+                    contentAlignment = Alignment.Center
+                ) {
+                    ContentCard()
                 }
             }
             composable(AppScreen.Components.CheckboxCard.route) {

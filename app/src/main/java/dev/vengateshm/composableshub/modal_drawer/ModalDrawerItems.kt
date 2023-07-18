@@ -39,6 +39,10 @@ val drawerItems = listOf(
                 route = AppScreen.Components.ChoiceCompactCard.route
             ),
             Child(
+                child = AppScreen.Components.ContentCard.displayName,
+                route = AppScreen.Components.ContentCard.route
+            ),
+            Child(
                 child = AppScreen.Components.CheckboxCard.displayName,
                 route = AppScreen.Components.CheckboxCard.route
             ),

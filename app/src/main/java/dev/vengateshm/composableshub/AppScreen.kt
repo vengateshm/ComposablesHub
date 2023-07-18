@@ -44,6 +44,11 @@ sealed class AppScreen {
                 get() = "Choice Compact Card"
         }
 
+        object ContentCard : Screens("content_card") {
+            override val displayName: String
+                get() = "Content Card"
+        }
+
         object CheckboxCard : Screens("check_box_card") {
             override val displayName: String
                 get() = "Checkbox Card"
