@@ -21,6 +21,10 @@ val drawerItems = listOf(
                 child = AppScreen.Screens.Settings.displayName,
                 route = AppScreen.Screens.Settings.route
             ),
+            Child(
+                child = AppScreen.Screens.Search.displayName,
+                route = AppScreen.Screens.Search.route
+            ),
         )
     ),
     ExpandableItem(

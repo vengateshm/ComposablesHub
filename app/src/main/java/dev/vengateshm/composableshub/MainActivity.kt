@@ -50,6 +50,7 @@ import dev.vengateshm.composableshub.modal_drawer.Child
 import dev.vengateshm.composableshub.modal_drawer.DrawerContent
 import dev.vengateshm.composableshub.modal_drawer.ExpandableItem
 import dev.vengateshm.composableshub.modal_drawer.drawerItems
+import dev.vengateshm.composableshub.screens.SearchScreen
 import dev.vengateshm.composableshub.screens.SignUpScreen
 import dev.vengateshm.composableshub.screens.galleryProfile.GalleryProfile
 import dev.vengateshm.composableshub.screens.settings.SettingsScreen
@@ -104,6 +105,9 @@ fun ComposableHubApp() {
             }
             composable(AppScreen.Screens.Settings.route) {
                 SettingsScreen()
+            }
+            composable(AppScreen.Screens.Search.route) {
+                SearchScreen()
             }
             composable(AppScreen.Components.SocialLoginButtons.route) {
                 Box(
