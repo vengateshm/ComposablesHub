@@ -9,7 +9,6 @@ import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.height
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.layout.size
-import androidx.compose.foundation.lazy.LazyColumn
 import androidx.compose.foundation.shape.CircleShape
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.outlined.Send
@@ -31,18 +30,9 @@ import androidx.compose.ui.unit.dp
 import coil.compose.AsyncImage
 import coil.request.ImageRequest
 
-@Composable
-fun FeedPosts() {
-    LazyColumn(modifier = Modifier.fillMaxWidth()) {
-        items(10) {
-            PostCard()
-        }
-    }
-}
-
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable
-fun PostCard() {
+fun FeedPostCard() {
     val context = LocalContext.current
     Card(Modifier.fillMaxWidth()) {
         Column {

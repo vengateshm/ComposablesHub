@@ -30,12 +30,12 @@ import androidx.compose.ui.unit.dp
 
 @Preview
 @Composable
-fun IconListViewPreview() {
-    IconListView()
+fun ListViewWithIconPreview() {
+    ListViewWithIcon()
 }
 
 @Composable
-fun IconListView() {
+fun ListViewWithIcon() {
     LazyColumn {
         item {
             IconListItem(
