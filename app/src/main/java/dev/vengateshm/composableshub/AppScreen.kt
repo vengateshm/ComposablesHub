@@ -111,4 +111,15 @@ sealed class AppScreen {
                 get() = "Multiselect AutoComplete"
         }
     }
+
+    sealed class BottomSheet(val route: String) : AppScreen() {
+        companion object {
+            const val displayName = "Bottom Sheet"
+        }
+
+        object BottomSheetScaffold : AutoComplete("bottom_sheet_scaffold") {
+            override val displayName: String
+                get() = "Bottom Sheet - Scaffold"
+        }
+    }
 }

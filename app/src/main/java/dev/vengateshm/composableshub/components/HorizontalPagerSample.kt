@@ -47,11 +47,10 @@ fun HorizontalPagerIndicator() {
     ) {
         val pageCount = imagePreviews.size
         Box {
-            val pagerState = rememberPagerState()
+            val pagerState = rememberPagerState(pageCount = { pageCount })
             HorizontalPager(
                 state = pagerState,
-                pageSpacing = 20.dp,
-                pageCount = pageCount
+                pageSpacing = 20.dp
             ) { index ->
                 Box(
                     Modifier

@@ -191,8 +191,8 @@ fun MessageItem(
                 containerColor = Color.Transparent,
                 overlineColor = Color.Transparent
             ),
-            headlineText = { Text(recipient) },
-            supportingText = {
+            headlineContent = { Text(recipient) },
+            supportingContent = {
                 val snippetString = buildAnnotatedString {
                     append(snippet)
                     val start = snippet.lowercase().indexOf(snippetHighlight.lowercase())

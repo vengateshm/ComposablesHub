@@ -34,6 +34,7 @@ import androidx.compose.ui.unit.dp
 import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
 import androidx.navigation.compose.rememberNavController
+import dev.vengateshm.composableshub.bottomsheet.SimpleBottomSheetScaffoldSample
 import dev.vengateshm.composableshub.components.AutocompleteWithImages
 import dev.vengateshm.composableshub.components.CheckboxCard
 import dev.vengateshm.composableshub.components.ChoiceCompactCard
@@ -205,6 +206,9 @@ fun ComposableHubApp() {
                 ) {
                     MultiselectAutocomplete()
                 }
+            }
+            composable(AppScreen.BottomSheet.BottomSheetScaffold.route) {
+                SimpleBottomSheetScaffoldSample()
             }
         }
     }

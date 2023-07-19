@@ -93,5 +93,13 @@ val drawerItems = listOf(
                 route = AppScreen.AutoComplete.MultiSelectAutoCompleteWithImages.route
             ),
         )
+    ), ExpandableItem(
+        parent = AppScreen.BottomSheet.displayName,
+        child = listOf(
+            Child(
+                child = AppScreen.BottomSheet.BottomSheetScaffold.displayName,
+                route = AppScreen.BottomSheet.BottomSheetScaffold.route
+            ),
+        )
     )
 )
