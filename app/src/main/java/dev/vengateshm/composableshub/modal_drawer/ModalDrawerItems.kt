@@ -101,5 +101,13 @@ val drawerItems = listOf(
                 route = AppScreen.BottomSheet.BottomSheetScaffold.route
             ),
         )
+    ), ExpandableItem(
+        parent = AppScreen.Picker.displayName,
+        child = listOf(
+            Child(
+                child = AppScreen.Picker.DateRangePicker.displayName,
+                route = AppScreen.Picker.DateRangePicker.route
+            ),
+        )
     )
 )

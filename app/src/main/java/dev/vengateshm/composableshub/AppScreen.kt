@@ -122,4 +122,15 @@ sealed class AppScreen {
                 get() = "Bottom Sheet - Scaffold"
         }
     }
+
+    sealed class Picker(val route: String) : AppScreen() {
+        companion object {
+            const val displayName = "Pickers"
+        }
+
+        object DateRangePicker : AutoComplete("date_range_picker") {
+            override val displayName: String
+                get() = "Date Range Picker"
+        }
+    }
 }
