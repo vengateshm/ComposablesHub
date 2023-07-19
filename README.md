@@ -19,9 +19,9 @@ This project has code snippets for composables with material3 design.
 <img src="https://github.com/vengateshm/ComposablesHub/assets/40466166/22722510-78bb-484e-9ab4-a5ed93c5130c" width="200" height="400">
 <img src="https://github.com/vengateshm/ComposablesHub/assets/40466166/b3b63c95-8e65-428b-93af-3e7e97279a91" width="200" height="400">
 
-|BottomSheetScaffold |DateRangePicker|
-|--------------------|---------------|
-|<img src="https://github.com/vengateshm/ComposablesHub/assets/40466166/07179567-abcb-41f2-a76c-3a7afb6ea016" width="200" height="400">                    |<img src="https://github.com/vengateshm/ComposablesHub/assets/40466166/cb1e30a7-fb10-4b3f-bd8b-9a16be0958e3" width="200" height="400">               |
+|BottomSheetScaffold |DateRangePicker|Plain Tool Tip|Rich Tool Tip|
+|--------------------|---------------|--------------|-------------|
+|<img src="https://github.com/vengateshm/ComposablesHub/assets/40466166/07179567-abcb-41f2-a76c-3a7afb6ea016" width="200" height="400">                    |<img src="https://github.com/vengateshm/ComposablesHub/assets/40466166/cb1e30a7-fb10-4b3f-bd8b-9a16be0958e3" width="200" height="400">|<img src="https://github.com/vengateshm/ComposablesHub/assets/40466166/321b8bd3-933f-4a04-bea8-ef4d92cc07a4" width="200" height="400">|<img src="https://github.com/vengateshm/ComposablesHub/assets/40466166/6c22c99a-de12-4ec5-bb68-408348132e5c" width="200" height="400">|
 
 
 
