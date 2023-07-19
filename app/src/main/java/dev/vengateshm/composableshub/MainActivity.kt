@@ -57,6 +57,8 @@ import dev.vengateshm.composableshub.screens.SearchScreen
 import dev.vengateshm.composableshub.screens.SignUpScreen
 import dev.vengateshm.composableshub.screens.galleryProfile.GalleryProfile
 import dev.vengateshm.composableshub.screens.settings.SettingsScreen
+import dev.vengateshm.composableshub.tooltip.PlainToolTipSample
+import dev.vengateshm.composableshub.tooltip.RichToolTipSample
 import dev.vengateshm.composableshub.ui.theme.ComposablesHubTheme
 import kotlinx.coroutines.launch
 
@@ -213,6 +215,12 @@ fun ComposableHubApp() {
             }
             composable(AppScreen.Picker.DateRangePicker.route) {
                 DateRangePickerSample()
+            }
+            composable(AppScreen.ToolTip.Plain.route) {
+                PlainToolTipSample()
+            }
+            composable(AppScreen.ToolTip.Rich.route) {
+                RichToolTipSample()
             }
         }
     }

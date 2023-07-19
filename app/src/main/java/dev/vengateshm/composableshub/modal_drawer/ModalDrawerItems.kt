@@ -93,7 +93,8 @@ val drawerItems = listOf(
                 route = AppScreen.AutoComplete.MultiSelectAutoCompleteWithImages.route
             ),
         )
-    ), ExpandableItem(
+    ),
+    ExpandableItem(
         parent = AppScreen.BottomSheet.displayName,
         child = listOf(
             Child(
@@ -101,7 +102,8 @@ val drawerItems = listOf(
                 route = AppScreen.BottomSheet.BottomSheetScaffold.route
             ),
         )
-    ), ExpandableItem(
+    ),
+    ExpandableItem(
         parent = AppScreen.Picker.displayName,
         child = listOf(
             Child(
@@ -109,5 +111,18 @@ val drawerItems = listOf(
                 route = AppScreen.Picker.DateRangePicker.route
             ),
         )
-    )
+    ),
+    ExpandableItem(
+        parent = AppScreen.ToolTip.displayName,
+        child = listOf(
+            Child(
+                child = AppScreen.ToolTip.Plain.displayName,
+                route = AppScreen.ToolTip.Plain.route
+            ),
+            Child(
+                child = AppScreen.ToolTip.Rich.displayName,
+                route = AppScreen.ToolTip.Rich.route
+            ),
+        )
+    ),
 )

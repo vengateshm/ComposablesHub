@@ -133,4 +133,20 @@ sealed class AppScreen {
                 get() = "Date Range Picker"
         }
     }
+
+    sealed class ToolTip(val route: String) : AppScreen() {
+        companion object {
+            const val displayName = "Tool Tip"
+        }
+
+        object Plain : AutoComplete("plain_tt") {
+            override val displayName: String
+                get() = "Plain Tool Tip"
+        }
+
+        object Rich : AutoComplete("plain_rt") {
+            override val displayName: String
+                get() = "Rich Tool Tip"
+        }
+    }
 }
