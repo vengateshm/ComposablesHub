@@ -39,34 +39,44 @@ sealed class AppScreen {
             const val displayName = "Components"
         }
 
-        object SocialLoginButtons : Screens("social_login_buttons") {
+        object SocialLoginButtons : Components("social_login_buttons") {
             override val displayName: String
                 get() = "Social Login Buttons"
         }
 
-        object PostFeedCard : Screens("post_feed_card") {
+        object PostFeedCard : Components("post_feed_card") {
             override val displayName: String
                 get() = "Post Feed Card"
         }
 
-        object ChoiceCompactCard : Screens("choice_compact_card") {
+        object ChoiceCompactCard : Components("choice_compact_card") {
             override val displayName: String
                 get() = "Choice Compact Card"
         }
 
-        object ContentCard : Screens("content_card") {
+        object ContentCard : Components("content_card") {
             override val displayName: String
                 get() = "Content Card"
         }
 
-        object CheckboxCard : Screens("check_box_card") {
+        object CheckboxCard : Components("check_box_card") {
             override val displayName: String
                 get() = "Checkbox Card"
         }
 
-        object HorizontalPager : Screens("horizontal_pager") {
+        object HorizontalPager : Components("horizontal_pager") {
             override val displayName: String
                 get() = "Horizontal Pager"
+        }
+
+        object SearchBar : Components("search_bar") {
+            override val displayName: String
+                get() = "Search Bar"
+        }
+
+        object DockedSearchBar : Components("docked_search_bar") {
+            override val displayName: String
+                get() = "Docked Search Bar"
         }
     }
 

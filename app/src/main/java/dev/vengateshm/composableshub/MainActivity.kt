@@ -42,6 +42,8 @@ import dev.vengateshm.composableshub.components.ContentCard
 import dev.vengateshm.composableshub.components.FeedPostCard
 import dev.vengateshm.composableshub.components.HorizontalPagerIndicator
 import dev.vengateshm.composableshub.components.MultiselectAutocomplete
+import dev.vengateshm.composableshub.components.SearchBarDocked
+import dev.vengateshm.composableshub.components.SearchBarNormal
 import dev.vengateshm.composableshub.components.SocialLoginsButtons
 import dev.vengateshm.composableshub.components.list_views.ListView
 import dev.vengateshm.composableshub.components.list_views.ListViewWithIcon
@@ -174,6 +176,12 @@ fun ComposableHubApp() {
                 ) {
                     HorizontalPagerIndicator()
                 }
+            }
+            composable(AppScreen.Components.SearchBar.route) {
+                SearchBarNormal()
+            }
+            composable(AppScreen.Components.DockedSearchBar.route) {
+                SearchBarDocked()
             }
             composable(AppScreen.Lists.ListView.route) {
                 ListView()

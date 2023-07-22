@@ -7,8 +7,7 @@ data class Child(val child: String, val route: String)
 
 val drawerItems = listOf(
     ExpandableItem(
-        parent = AppScreen.Screens.displayName,
-        child = listOf(
+        parent = AppScreen.Screens.displayName, child = listOf(
             Child(
                 child = AppScreen.Screens.GalleryProfile.displayName,
                 route = AppScreen.Screens.GalleryProfile.route
@@ -22,18 +21,15 @@ val drawerItems = listOf(
                 route = AppScreen.Screens.Settings.route
             ),
             Child(
-                child = AppScreen.Screens.Search.displayName,
-                route = AppScreen.Screens.Search.route
+                child = AppScreen.Screens.Search.displayName, route = AppScreen.Screens.Search.route
             ),
             Child(
-                child = AppScreen.Screens.Chat.displayName,
-                route = AppScreen.Screens.Chat.route
+                child = AppScreen.Screens.Chat.displayName, route = AppScreen.Screens.Chat.route
             ),
         )
     ),
     ExpandableItem(
-        parent = AppScreen.Components.displayName,
-        child = listOf(
+        parent = AppScreen.Components.displayName, child = listOf(
             Child(
                 child = AppScreen.Components.SocialLoginButtons.displayName,
                 route = AppScreen.Components.SocialLoginButtons.route
@@ -58,14 +54,20 @@ val drawerItems = listOf(
                 child = AppScreen.Components.HorizontalPager.displayName,
                 route = AppScreen.Components.HorizontalPager.route
             ),
+            Child(
+                child = AppScreen.Components.SearchBar.displayName,
+                route = AppScreen.Components.SearchBar.route
+            ),
+            Child(
+                child = AppScreen.Components.DockedSearchBar.displayName,
+                route = AppScreen.Components.DockedSearchBar.route
+            ),
         )
     ),
     ExpandableItem(
-        parent = AppScreen.Lists.displayName,
-        child = listOf(
+        parent = AppScreen.Lists.displayName, child = listOf(
             Child(
-                child = AppScreen.Lists.ListView.displayName,
-                route = AppScreen.Lists.ListView.route
+                child = AppScreen.Lists.ListView.displayName, route = AppScreen.Lists.ListView.route
             ),
             Child(
                 child = AppScreen.Lists.ListViewIcon.displayName,
@@ -82,8 +84,7 @@ val drawerItems = listOf(
         )
     ),
     ExpandableItem(
-        parent = AppScreen.AutoComplete.displayName,
-        child = listOf(
+        parent = AppScreen.AutoComplete.displayName, child = listOf(
             Child(
                 child = AppScreen.AutoComplete.AutoCompleteWithImages.displayName,
                 route = AppScreen.AutoComplete.AutoCompleteWithImages.route
@@ -95,8 +96,7 @@ val drawerItems = listOf(
         )
     ),
     ExpandableItem(
-        parent = AppScreen.BottomSheet.displayName,
-        child = listOf(
+        parent = AppScreen.BottomSheet.displayName, child = listOf(
             Child(
                 child = AppScreen.BottomSheet.BottomSheetScaffold.displayName,
                 route = AppScreen.BottomSheet.BottomSheetScaffold.route
@@ -104,8 +104,7 @@ val drawerItems = listOf(
         )
     ),
     ExpandableItem(
-        parent = AppScreen.Picker.displayName,
-        child = listOf(
+        parent = AppScreen.Picker.displayName, child = listOf(
             Child(
                 child = AppScreen.Picker.DateRangePicker.displayName,
                 route = AppScreen.Picker.DateRangePicker.route
@@ -113,15 +112,12 @@ val drawerItems = listOf(
         )
     ),
     ExpandableItem(
-        parent = AppScreen.ToolTip.displayName,
-        child = listOf(
+        parent = AppScreen.ToolTip.displayName, child = listOf(
             Child(
-                child = AppScreen.ToolTip.Plain.displayName,
-                route = AppScreen.ToolTip.Plain.route
+                child = AppScreen.ToolTip.Plain.displayName, route = AppScreen.ToolTip.Plain.route
             ),
             Child(
-                child = AppScreen.ToolTip.Rich.displayName,
-                route = AppScreen.ToolTip.Rich.route
+                child = AppScreen.ToolTip.Rich.displayName, route = AppScreen.ToolTip.Rich.route
             ),
         )
     ),
