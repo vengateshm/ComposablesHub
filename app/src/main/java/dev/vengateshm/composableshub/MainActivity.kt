@@ -53,6 +53,7 @@ import dev.vengateshm.composableshub.modal_drawer.Child
 import dev.vengateshm.composableshub.modal_drawer.DrawerContent
 import dev.vengateshm.composableshub.modal_drawer.ExpandableItem
 import dev.vengateshm.composableshub.modal_drawer.drawerItems
+import dev.vengateshm.composableshub.navigation.NavigationRailSample
 import dev.vengateshm.composableshub.pickers.DateRangePickerSample
 import dev.vengateshm.composableshub.screens.ChatScreen
 import dev.vengateshm.composableshub.screens.SearchScreen
@@ -75,6 +76,7 @@ class MainActivity : ComponentActivity() {
                 ) {
                     ComposableHubApp()
 //                    SampleAppDrawer()
+//                    NavigationRailSample()
                 }
             }
         }
