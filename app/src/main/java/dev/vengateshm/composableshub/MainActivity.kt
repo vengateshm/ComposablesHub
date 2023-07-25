@@ -34,6 +34,7 @@ import androidx.compose.ui.unit.dp
 import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
 import androidx.navigation.compose.rememberNavController
+import dev.vengateshm.composableshub.bottomsheet.ModalBottomSheetSample
 import dev.vengateshm.composableshub.bottomsheet.SimpleBottomSheetScaffoldSample
 import dev.vengateshm.composableshub.components.AutocompleteWithImages
 import dev.vengateshm.composableshub.components.CheckboxCard
@@ -75,8 +76,6 @@ class MainActivity : ComponentActivity() {
                     modifier = Modifier.fillMaxSize(), color = MaterialTheme.colorScheme.background
                 ) {
                     ComposableHubApp()
-//                    SampleAppDrawer()
-//                    NavigationRailSample()
                 }
             }
         }
